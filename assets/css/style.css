@@ -103,7 +103,7 @@ footer{
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding: 1rem;
+        padding-right: 1rem;
     }
     #menu {
         display: flex;
@@ -115,5 +115,15 @@ footer{
 
     .nav-toggle-label {
         display: none;
+    }
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main content */
+    main{
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
     }
 }
